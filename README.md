@@ -1,5 +1,7 @@
 # AIOStreams for iOS/iPadOS and Apple TV
 
+Fork of [wizaarddlabs/aiostreams-ios](https://github.com/wizaarddlabs/aiostreams-ios).
+
 An unofficial iPhone, iPad and Apple TV port of the [AIOStreams](https://github.com/Viren070/AIOStreams) app, playing through [AetherEngine](https://github.com/superuser404notfound/AetherEngine).
 
 ### Apple TV
@@ -74,7 +76,7 @@ The app's version comes from the release tags: a build of the commit tagged `v0.
 **AltStore and SideStore.** Add this source to get the iPhone and iPad app and its updates in the app:
 
 ```
-https://github.com/wizaarddlabs/aiostreams-ios/releases/latest/download/altstore.json
+https://github.com/jinnbuttcheeks/aiostreams-ios/releases/latest/download/altstore.json
 ```
 
 Each release attaches it, listing every release from v0.2.10 on. Apple TV isn't in it: neither installs on tvOS.

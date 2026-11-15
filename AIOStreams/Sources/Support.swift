@@ -84,8 +84,8 @@ enum AppLog {
 /// A newer release of the app, from the GitHub releases its IPAs are published to; sideloaded
 /// copies don't update themselves, so the app says when there's one.
 enum UpdateCheck {
-    static let page = URL(string: "https://github.com/wizaarddlabs/aiostreams-ios/releases/latest")!
-    private static let api = URL(string: "https://api.github.com/repos/wizaarddlabs/aiostreams-ios/releases/latest")!
+    static let page = URL(string: "https://github.com/jinnbuttcheeks/aiostreams-ios/releases/latest")!
+    private static let api = URL(string: "https://api.github.com/repos/jinnbuttcheeks/aiostreams-ios/releases/latest")!
 
     /// The latest release's version, where it's newer than this copy.
     static func newer() async -> String? {
