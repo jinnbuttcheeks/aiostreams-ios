@@ -1,0 +1,61 @@
+{
+  "name": "AIOStreams for iOS",
+  "identifier": "io.github.aiostreams-ios",
+  "subtitle": "An unofficial iPhone and iPad port of AIOStreams.",
+  "website": "https://github.com/jinnbuttcheeks/aiostreams-ios",
+  "iconURL": "https://raw.githubusercontent.com/jinnbuttcheeks/aiostreams-ios/main/AIOStreams/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
+  "tintColor": "6152DF",
+  "apps": [
+    {
+      "name": "AIOStreams",
+      "bundleIdentifier": "io.github.aiostreams-ios.app",
+      "developerName": "aiostreams-ios",
+      "subtitle": "Your AIOStreams server, played through AetherEngine.",
+      "localizedDescription": "An unofficial iPhone and iPad port of the AIOStreams app. It runs AIOStreams' own web app over AetherEngine, with HDR10, HDR10+, Dolby Vision and Atmos, trailers, Picture in Picture and downloads. Not affiliated with AIOStreams or AetherEngine.",
+      "iconURL": "https://raw.githubusercontent.com/jinnbuttcheeks/aiostreams-ios/main/AIOStreams/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
+      "tintColor": "6152DF",
+      "category": "entertainment",
+      "screenshots": [
+        "https://raw.githubusercontent.com/jinnbuttcheeks/aiostreams-ios/main/docs/screenshots/iphone-home.jpg",
+        "https://raw.githubusercontent.com/jinnbuttcheeks/aiostreams-ios/main/docs/screenshots/iphone-show.jpg",
+        "https://raw.githubusercontent.com/jinnbuttcheeks/aiostreams-ios/main/docs/screenshots/iphone-movie.jpg",
+        "https://raw.githubusercontent.com/jinnbuttcheeks/aiostreams-ios/main/docs/screenshots/iphone-versions.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.7.3",
+          "date": "2026-11-20T11:45:38Z",
+          "localizedDescription": "Full Changelog: https://github.com/jinnbuttcheeks/aiostreams-ios/compare/v0.5.6...v0.7.3",
+          "downloadURL": "https://github.com/jinnbuttcheeks/aiostreams-ios/releases/download/v0.7.3/AIOStreams.ipa",
+          "size": 18061809,
+          "minOSVersion": "18.0",
+          "sha256": "85b5e61e3bd0759f3712b48de93d56b06e5c590e4b9a33219f5becb08332cea1"
+        },
+        {
+          "version": "0.5.6",
+          "date": "2026-11-15T22:47:08Z",
+          "localizedDescription": "Unsigned IPAs. Sign them when you install them.",
+          "downloadURL": "https://github.com/jinnbuttcheeks/aiostreams-ios/releases/download/v0.5.6/AIOStreams.ipa",
+          "size": 17742436,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "0.5.5",
+          "date": "2026-11-15T21:42:19Z",
+          "localizedDescription": "Unsigned IPAs. Sign them when you install them.",
+          "downloadURL": "https://github.com/jinnbuttcheeks/aiostreams-ios/releases/download/v0.5.5/AIOStreams.ipa",
+          "size": 17742503,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "AIOStreams connects to your server and streams on your local network.",
+          "NSMicrophoneUsageDescription": "Voice search in the page's search field uses the microphone."
+        }
+      }
+    }
+  ],
+  "news": []
+}
